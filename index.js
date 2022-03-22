@@ -31,7 +31,7 @@ function magnify(imglink){
     $("#magnify").addClass("animated fadeIn");
     setTimeout(function(){
         $("#magnify").removeClass("animated fadeIn");
-    },800);
+    },500);
 }
 
 function closemagnify(){
@@ -40,7 +40,7 @@ function closemagnify(){
         $("#magnify").css("display","none");
         $("#magnify").removeClass("animated fadeOut");
         $("#img_here").css("background",`url('') center center`);
-    },800);
+    },500);
 }
 
 setTimeout(function(){
