@@ -177,7 +177,7 @@ header table {
     height:100vh;
     /*background:url("mew.jpg");*/
     linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
-    background:url("mew.jpg") center center;
+    background:url("/images/mew.jpg") center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
